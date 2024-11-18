@@ -1026,3 +1026,5 @@ function generate_host_overrides() {
 generate_host_overrides
 
 export BUILD_USERNAME=android-build
+export KBUILD_BUILD_USER=build-user
+export KBUILD_BUILD_HOST=build-host
